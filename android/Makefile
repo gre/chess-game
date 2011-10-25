@@ -10,7 +10,7 @@
 # export DEBUG=true
 
   # BUILD_DIR : PATH to WebAppBuilder/build directory (the directory containing all build tools)
-BUILD_DIR = ../../../build
+BUILD_DIR = ../WebAppBuilder/build
 
   # SRC_DIR : the source directory
 SRC_DIR = ../src

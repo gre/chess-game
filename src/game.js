@@ -263,6 +263,7 @@ ns.Storage = function() {
         self.pieces.push( piece('black', 'pawn',           c+'7') );
         self.pieces.push( piece('black', firstRowTypes[i], c+'8') );
       }
+      return this;
     }
     self.toggleCurrentPlayer = function(){
       self.currentPlayer = self.currentPlayer=='white' ? 'black' : 'white';

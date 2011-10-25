@@ -7,17 +7,15 @@
         #  (mobile, tablet, desktop) but with common code.  #
         ###        by @greweb  -  http://greweb.fr/       ###
 
-# export DEBUG=true
-
   # BUILD_DIR : PATH to WebAppBuilder/build directory (the directory containing all build tools)
-BUILD_DIR = ../../../build
+BUILD_DIR = ../WebAppBuilder/build
 
   # SRC_DIR : the source directory
 SRC_DIR = ../src
 
   # DIST_DIR : the dist directory (ex: assets for android, www for iphone)
   # this should not be "." because the directory will be removed on clean
-DIST_DIR = assets
+DIST_DIR = www
 
   # RESOURCES : Your assets (images, sounds, fonts... and other static files)
 # You can rename dist file by prefix newname= ( ex: index.html=iphone_version.html )

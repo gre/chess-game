@@ -1,2 +1,12 @@
-This game is an (still unfinished) demonstration Chess Game.
-It has been made for the writing of a book chapter about HTML5 games development for multi-platform.
+Usage
+=====
+
+* Clone the repository:
+    git clone git@github.com:gre/chess-game.git
+
+* Init submodules dependencies (WebAppBuilder)
+    git submodule init; git submodule update
+
+WebAppBuilder dependencies
+====
+* nodejs for WebAppBuilder

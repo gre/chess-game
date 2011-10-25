@@ -1,6 +1,8 @@
 OPEN=open
 
-default: desktop
+default: all
+
+all: desktop android
 
 android:
 	cd android && make
