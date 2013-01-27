@@ -152,10 +152,14 @@ ns.Storage = function() {
     return String.fromCharCode(coord.x+97)+""+(coord.y+1);
   }
 
+  var createImage = function (options) {
+    return $('<img src="images/'+options.color+'_'+options.type+'.png" />');
+  }
 
   ns.Renderer = function(){
     var self = this;
     var lighterCases = ["a2","a4","a6","a8","c2", "c4", "c6", "c8", "e2", "e4", "e6", "e8", "g2", "g4", "g6", "g8", "b1", "b3", "b5", "b7", "d1", "d3", "d5", "d7", "f1", "f3", "f5", "f7", "h1", "h3", "h5", "h7"]
+
 
     self.render = function(){
       if(self.game.isCheckMate(self.game.currentPlayer)) {
